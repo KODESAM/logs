@@ -1,0 +1,10 @@
+
+apt-get install helm 
+
+helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+
+helm repo add stable https://charts.helm.sh/stable
+
+helm install prometheus stable/prometheus --namespace monitoring
+
+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
